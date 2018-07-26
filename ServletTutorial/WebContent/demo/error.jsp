@@ -6,7 +6,7 @@
 </head>
 <body>
  
-<h2>Some error in page</h2>
+<h2>Some error in page </h2>
  
 Message:
 <%=exception.getMessage()%>
