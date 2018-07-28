@@ -15,7 +15,7 @@ pipeline {
             steps {
                 sh '''
                     cd ServletTutorial
-                    ant war
+                    ant -v
                 '''
                 
             }
