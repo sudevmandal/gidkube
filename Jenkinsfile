@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        ant 'Ant 1.9.6'        
+        Ant 'Ant 1.9.6'        
     }
     stages {
         stage ('Initialize') {
